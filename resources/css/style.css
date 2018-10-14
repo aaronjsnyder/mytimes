@@ -1,6 +1,15 @@
 body {
   margin: 0;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
+
+div {
+  border: solid black 1px;
+}
+
+/* Header Styling */
 
 header {
   display: flex;
@@ -43,9 +52,66 @@ header nav {
   color: mediumaquamarine;
 }
 
-.main {
+/* Content Styling*/
+
+.content {
   display: flex;
+  justify-content: space-between;
   width: 1232px;
   margin: 0 auto 78px auto;
   padding-top: 116px;
+}
+
+.column.large {
+  display: flex;
+  flex-direction: column;
+  width: 630px;
+}
+
+.column.medium {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.column.small {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+}
+
+.main .image-content {
+  background-image: url("../images/main.png");
+  display: flex;
+  flex-grow: 1;
+  font-size: 40px;
+  height: 300px;
+}
+
+.fall.image-content {
+  background-image: url("../images/fall.png");
+  display: flex;
+  justify-content: center;
+  height: 300px;
+}
+
+.hipster.image-content {
+  background-image: url("../images/hipster.png");
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 300px;
+}
+
+.cat.image-content {
+  background-image: url("../images/catceo.png");
+  display: flex;
+  height: 300px;
+}
+
+.image-content {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
 }
