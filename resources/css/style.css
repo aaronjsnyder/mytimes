@@ -7,6 +7,21 @@ body {
   color: black;
 }
 
+a {
+  color: black;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
 
 
 /* News Stories Styling */
@@ -72,11 +87,6 @@ header {
   margin-right: 12px;
 }
 
-nav p {
-  display:inline-block;
-  padding: 10px;
-}
-
 header nav {
   padding-right: 80px;
 }
@@ -140,4 +150,56 @@ header nav {
 
 .column.small {
   width: 240px;
+}
+
+.news-bites {
+  display: flex;
+  flex-direction: column;
+}
+
+.news-bites .bite {
+  display: block;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  border-bottom: solid black 1px;
+}
+
+.news-bites h3 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  height: 300px;
+}
+
+footer .info {
+  display: flex;
+  align-items: center;
+}
+
+footer .title {
+ font-family: Georgia;
+ font-size: 16px;
+ font-weight: bold;
+ color: white;
+ margin-right: 25px;
+ padding-right: 25px;
+ border-right: solid white 2px;
 }
